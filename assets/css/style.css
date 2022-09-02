@@ -74,10 +74,6 @@ button.ghost {
 	border-color: #FFFFFF;
 }
 
-.thank-you-section {
-	visibility: hidden;
-}
-
 form, .thank-you-section {
 	background-color: #FFFFFF;
 	display: flex;
@@ -88,6 +84,11 @@ form, .thank-you-section {
 	height: 100%;
 	text-align: center;
 }
+
+.thank-you-section {
+	display: none;
+}
+
 
 .form-inputs {
 	text-align: left;
@@ -192,7 +193,7 @@ input {
 
 /** animation here **/
 .words {
-	/* visibility: hidden; */
+	visibility: hidden;
 	color: #f4d03f;
 	font-size: 0;
 	line-height: 1.5;

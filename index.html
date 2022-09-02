@@ -9,16 +9,16 @@
     <div class="app-wrapper">
         <div class="container" id="container">
             <div class="form-container sign-in-container">
-                <div class="thank-you-section">
+                <div class="thank-you-section" id="thank-you-section">
                     <h1>Thank you for signing up! Enjoy the message!</h1>
                 </div>
-                <form action="#">
+                <form id="form">
                     <h1>Sign up to reveal the message</h1>
                     <div class="form-inputs">
                         <label for="email">Email</label>
-                        <input name="email" type="email" placeholder="example@gmail.com" required/>
+                        <input id="email" name="email" type="email" placeholder="example@gmail.com" required/>
                         <label for="name">Name</label>
-                        <input name="name" type="name" placeholder="John Doe" required/>
+                        <input id="name" name="name" type="name" placeholder="John Doe" required/>
                     </div>
                     <button type="submit">Sign Up</button>
                 </form>
@@ -47,6 +47,7 @@
         </div>  
     </div>
 
+<script src="./assets/js/main.js"></script>
 </body>
 
 </html>
