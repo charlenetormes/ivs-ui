@@ -233,14 +233,11 @@ input {
 	animation-delay: 1.5s;
 }
 
-/* .words span:nth-child(5) {
-	animation-delay: 2s;
-}
-
-.words span:nth-child(6) {
-	animation-delay: 2.5s;
-}
-
-.words span:nth-child(7) {
-	animation-delay: 3s;
-} */
+@media only screen and (max-width: 600px) {
+	.form-inputs {
+	  text-align: center;
+	}
+	form h1{
+		font-size:20px
+	}
+  }
